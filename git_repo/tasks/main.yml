@@ -1,0 +1,10 @@
+---
+# tasks file for /root/roles/git_repo
+- name: Authenticate and create repo
+  script: /root/roles/git_repo/files/repo2.py
+  args:
+    executable: /bin/python3
+  
+
+
+
